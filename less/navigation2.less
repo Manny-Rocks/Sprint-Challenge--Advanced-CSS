@@ -1,0 +1,35 @@
+// Navigation code here
+.heading{
+    /*border:2px solid red;*/
+    background-color:#F0F8FF;
+    display:flex;
+    justify-content:space-around;
+    flex-direction:column;
+    align-items:center;
+    height:100px;
+    width:100%;
+    
+    @media @phone{
+        width:100%;
+        margin-left:0;
+        height:120px;
+    }
+  }
+  .heading nav a{
+    margin: 20px;
+    color:gray;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.5s ease-in-out;
+    font-size:1.5rem;
+    padding:10px;
+    @media @phone{
+        margin:5px;
+    }
+  }
+  nav a:hover {
+    text-decoration: none;
+    border-bottom:2px solid @red;
+    color:red;
+  }
+  
