@@ -260,11 +260,13 @@ footer {
     padding: 10px;
   }
 }
-.home .space-images .b {
-  display: none;
-}
-.home .space-images .c {
-  display: none;
+@media (max-width:500px) {
+  .home .space-images .b {
+    display: none;
+  }
+  .home .space-images .c {
+    display: none;
+  }
 }
 .home .visit-planets {
   padding: 15px;
